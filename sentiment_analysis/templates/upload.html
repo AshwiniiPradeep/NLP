@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Social Media Sentiment Analysis</title>
+    </head>
+    <body>
+    	<h1>Social Media Sentiment Analysis</h1>
+    	<h3>The application is to perform sentiment analysis for social media content using NLP technology</h3>
+
+    	<h1>Project Purpose</h1>
+
+    	<ul>
+    		<li>Identifys the dissatisfaction related to a product or a specific feature</li>
+    		<li>Identifys the users who have posted the negative comments</li>
+    	</ul>
+
+    	<span>The application helps to perform sentiment analysis for facebook,twitter and instagram comments.<br>
+    	Download comments from any of the above mentioned socialmedia posts,images or videos.<br> You can export the comments from the below mentioned link</span>
+
+    	<ul><li><a href="https://exportcomments.com/">Click Here</a></ul>
+
+
+    	<span>Paste URL of any specific post like(Sample Post) 	</span>
+    	<ul>
+    		<li><a href="https://www.facebook.com/apple/photos/a.1182756961816907/2672305722862016/?type=3&__tn__=HH-R">Facebook Post</a></li>
+
+    		<li><a href="https://www.instagram.com/p/B1sh-jKActQ/?utm_source=ig_web_copy_link&comment_id=17998383688251173">Instagram Post</a></li>
+
+    		<li><a href="https://twitter.com/i/status/1001867140549394432">Twitter Post</a></li>
+
+    	</ul>
+    	<span>Check for nested replies. Now you can export the file. Once downloaded upload the file using the below for for text classification and sentiment analysis.</span>
+        <form action="/handleUpload" method="post" enctype="multipart/form-data">
+            Choose the file: <input type="file" name="social_media_comment"/><BR>
+                <input type="submit" value="Upload"/>
+        </form>
+
+        <span>Kindly wait until the process completes. Here the downloaded comments are classifed based<br>
+        based on the tone of the text.
+        IBM tone analyzer is used for the textclassification to perform sentiment analysis</span>
+        <ul>
+        	<li>Tentative</li>
+        	<li>Confident</li>
+        	<li>Analytical</li>
+        	<li>Sadness</li>
+        	<li>Joy</li>
+        	<li>Fear</li>
+        	<li>Anger</li>
+        </ul>
+
+        <span>It provides the positive, negative and count of comments that sounds neutral.</span>
+        <span>Username,profileId,userprofile links are displayed with the comment status. </span>
+    </body>
+</html>
