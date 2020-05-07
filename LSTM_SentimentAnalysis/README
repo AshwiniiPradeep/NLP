@@ -1,5 +1,2 @@
 Sentiment Analysis using LSTM - RNN/CNN
 ===================================
-
-In this project sentiment analysis was performed on reviews of different games available.
-Model was trained with LSTM CNN and LSTM RNN and model trained using CNN performed better than RNN.
